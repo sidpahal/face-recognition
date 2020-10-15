@@ -1,6 +1,7 @@
 import cv2
 import sys
 import os
+import subprocess
 
 cascPath = sys.argv[1]
 faceCascade = cv2.CascadeClassifier(cascPath)
